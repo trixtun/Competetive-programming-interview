@@ -2,7 +2,7 @@ if __name__ == '__main__':
     N = int(input())
     m=list()
     for i in range(N):
-       method,*l=input().split()
+       method,*l=input().split()   #imp
        k=list(map(int,l))
        if len(k)==2:
           q=[k[0]]
